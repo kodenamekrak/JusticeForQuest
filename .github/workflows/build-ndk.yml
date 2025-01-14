@@ -25,6 +25,7 @@ on:
       - '!createqmod.ps1'
       - '**.md'
       - '.gitignore'
+      - 'index.json'
   pull_request:
     branches:
         - 'master'
