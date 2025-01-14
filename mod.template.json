@@ -7,7 +7,7 @@
   "version": "0.1.0",
   "packageId": "com.beatgames.beatsaber",
   "packageVersion": "1.40.0_2229",
-  "description": "Reimplementation of ovr api",
+  "description": "Allows running recent versions on Quest 1",
   "dependencies": [],
   "modFiles": ["${binary}"],
 
