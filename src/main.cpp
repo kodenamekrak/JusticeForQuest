@@ -77,9 +77,6 @@ MAKE_HOOK_MATCH(CAPI_ovr_Message_GetType, &Oculus::Platform::CAPI::ovr_Message_G
 	{
 		Logger.debug("Returning custom message type for message {}", *iter);
 		return iter->messageType;
-		// MessageType for GetUserAge_Get
-		// for some reason the cordl enum types seem to be using the wrong value ???
-		// return MessageType(409688241);
 	}
 
 	return CAPI_ovr_Message_GetType(ptr);
